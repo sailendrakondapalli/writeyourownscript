@@ -1,7 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "cd vasanthi-coaching && npm install && npm run build",
   "outputDirectory": "vasanthi-coaching/dist",
-  "installCommand": "npm install",
-  "framework": "vite",
-  "rootDirectory": "vasanthi-coaching"
+  "framework": null
 }
