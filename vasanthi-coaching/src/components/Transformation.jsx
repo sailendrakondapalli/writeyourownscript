@@ -108,7 +108,6 @@ export default function Transformation() {
           <blockquote className="font-playfair text-2xl md:text-3xl text-white/90 italic max-w-3xl mx-auto leading-relaxed">
             "The woman you are becoming will cost you people, habits, and comfort. But she is worth every sacrifice."
           </blockquote>
-          <div className="text-pink-400 mt-4 font-medium">— Vasanthi</div>
         </motion.div>
       </div>
       <WaveDivider fill="#ffffff" />

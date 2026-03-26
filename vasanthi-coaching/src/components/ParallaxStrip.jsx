@@ -1,5 +1,5 @@
 // Fixed-background parallax strip between sections
-export default function ParallaxStrip({ image, quote, author }) {
+export default function ParallaxStrip({ image, quote }) {
   return (
     <div
       className="relative h-56 md:h-72 flex items-center justify-center overflow-hidden"
@@ -17,9 +17,6 @@ export default function ParallaxStrip({ image, quote, author }) {
         <blockquote className="font-playfair text-xl md:text-2xl text-white italic leading-relaxed">
           "{quote}"
         </blockquote>
-        {author && (
-          <div className="text-pink-300 mt-3 font-medium text-sm tracking-wide">— {author}</div>
-        )}
       </div>
     </div>
   )

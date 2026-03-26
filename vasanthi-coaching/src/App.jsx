@@ -24,7 +24,6 @@ function App() {
       <ParallaxStrip
         image="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1600&q=80"
         quote="Every woman deserves to live a life she's proud of — not one she's simply surviving."
-        author="Vasanthi"
       />
 
       <WhoIHelp />
@@ -32,7 +31,6 @@ function App() {
       <ParallaxStrip
         image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&q=80"
         quote="Clarity is not a luxury. It's the foundation of every great life."
-        author="Vasanthi"
       />
 
       <Programs />
@@ -42,7 +40,6 @@ function App() {
       <ParallaxStrip
         image="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80"
         quote="You didn't come this far to only come this far. Rise, woman. Rise."
-        author="Vasanthi"
       />
 
       <BrandMessage />
@@ -51,7 +48,6 @@ function App() {
       <ParallaxStrip
         image="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1600&q=80"
         quote="The best investment you will ever make is in yourself."
-        author="Vasanthi"
       />
 
       <Booking />

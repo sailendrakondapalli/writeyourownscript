@@ -15,17 +15,29 @@ const programs = [
     borderColor: 'border-rose-200',
     problems: ['Confidence issues', 'Emotional overwhelm', 'Lack of clarity'],
     description: 'Phoenix Women is a transformational coaching program designed for women who feel stuck, lost, or burned out. You\'ve been strong for everyone else — now it\'s time to rise for yourself. This program helps you shed the old identity that no longer serves you and step into the powerful, confident woman you were always meant to be.',
+    image: 'https://images.unsplash.com/photo-1614644147798-f8c0fc9da7f6?w=800&q=80',
+    photos: [
+      'https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=300&q=80',
+      'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?w=300&q=80',
+      'https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=300&q=80',
+    ],
     benefits: [
       'Rebuild unshakeable self-confidence from within',
-      'Break free from emotional overwhelm and people-pleasing patterns',
+      'Break free from emotional overwhelm and people-pleasing',
       'Gain crystal-clear clarity on your purpose and direction',
       'Develop a powerful mindset that attracts success',
       'Create healthy boundaries without guilt',
       'Transform self-doubt into decisive, bold action',
-      'Build a life aligned with your deepest values and desires',
+      'Build a life aligned with your deepest values',
       'Join a community of women rising together',
     ],
-    image: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=600&q=80',
+    steps: [
+      'Discovery call — we understand where you are and what you truly want',
+      'Mindset audit — identify the exact beliefs and patterns holding you back',
+      'Personalised roadmap — a clear, step-by-step plan built just for you',
+      'Weekly 1-on-1 coaching sessions with tools, exercises and accountability',
+      'Integration & transformation — you emerge as the woman you were meant to be',
+    ],
   },
   {
     id: 'phoenix-leaders',
@@ -37,6 +49,12 @@ const programs = [
     borderColor: 'border-violet-200',
     problems: ['Career confusion', 'Overthinking', 'Lack of focus'],
     description: 'Phoenix Future Leaders is built for students and young adults who feel overwhelmed by choices, paralyzed by overthinking, or unsure of their path. This program takes you from confusion to clarity, from self-doubt to confidence, and from procrastination to purposeful action — so you can lead your own future with intention.',
+    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80',
+    photos: [
+      'https://images.unsplash.com/photo-1621452773781-0f992fd1f5cb?w=300&q=80',
+      'https://images.unsplash.com/photo-1588776814546-ec7e1b3a0a23?w=300&q=80',
+      'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&q=80',
+    ],
     benefits: [
       'Discover your unique strengths and natural talents',
       'Overcome overthinking and decision paralysis',
@@ -47,7 +65,13 @@ const programs = [
       'Unlock your full academic and professional potential',
       'Step into your future with confidence and purpose',
     ],
-    image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80',
+    steps: [
+      'Strengths & values assessment — discover who you truly are',
+      'Goal clarity session — define exactly what success looks like for you',
+      'Overthinking detox — practical tools to quiet the mental noise',
+      'Action planning — break big goals into daily, doable steps',
+      'Confidence building — show up boldly in academics, interviews and life',
+    ],
   },
 ]
 

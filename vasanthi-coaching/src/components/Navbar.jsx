@@ -21,13 +21,13 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-transparent'
+        scrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-black/20 backdrop-blur-sm'
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex flex-col leading-tight">
-          <span className="font-playfair text-xl font-bold gradient-text">Write Your Own Script</span>
-          <span className="text-xs text-gray-400 font-light tracking-wide">Rewrite your life.. Live your dream</span>
+          <span className={`font-playfair text-xl font-bold ${scrolled ? 'gradient-text' : 'text-white'}`}>Write Your Own Script</span>
+          <span className={`text-xs font-light tracking-wide ${scrolled ? 'text-gray-400' : 'text-white/70'}`}>Rewrite your life.. Live your dream</span>
         </a>
 
         {/* Desktop */}
@@ -36,7 +36,9 @@ export default function Navbar() {
             <li key={l}>
               <a
                 href={`#${l.toLowerCase()}`}
-                className="text-gray-600 hover:text-pink-600 font-medium transition-colors text-sm tracking-wide"
+                className={`font-medium transition-colors text-sm tracking-wide ${
+                  scrolled ? 'text-gray-600 hover:text-pink-600' : 'text-white/90 hover:text-pink-300'
+                }`}
               >
                 {l}
               </a>

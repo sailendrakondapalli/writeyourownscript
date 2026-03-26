@@ -9,7 +9,7 @@ const groups = [
     range: '6 – 18',
     label: 'Young Girls & Teens',
     emoji: '🌸',
-    image: 'https://images.unsplash.com/photo-1588776814546-ec7e1b3a0a23?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1621452773781-0f992fd1f5cb?w=600&q=80',
     color: 'from-rose-400 to-pink-500',
     bg: 'from-rose-50 to-pink-50',
     border: 'border-rose-200',
