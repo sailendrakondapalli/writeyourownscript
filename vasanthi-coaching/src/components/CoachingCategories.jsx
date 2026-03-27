@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
-import WaveDivider from './WaveDivider'
 
 const categories = [
   {
@@ -60,8 +59,8 @@ export default function CoachingCategories() {
   const [active, setActive] = useState(null)
 
   return (
-    <section id="coaching" className="relative bg-white pt-24 pb-0 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 pb-20">
+    <section id="coaching" className="relative bg-white py-24 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-6">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -132,8 +131,6 @@ export default function CoachingCategories() {
           )}
         </AnimatePresence>
       </div>
-      <WaveDivider fill="#1a0a2e" />
-
     </section>
   )
 }

@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
-import WaveDivider from './WaveDivider'
 
 const testimonials = [
   {
@@ -51,8 +50,8 @@ export default function Testimonials() {
   const [ref, inView] = useInView()
 
   return (
-    <section id="testimonials" className="relative bg-gray-50 pt-24 pb-0 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 pb-20">
+    <section id="testimonials" className="relative bg-gray-50 py-24 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-6">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -103,7 +102,6 @@ export default function Testimonials() {
           ))}
         </div>
       </div>
-      <WaveDivider fill="#ffffff" />
     </section>
   )
 }

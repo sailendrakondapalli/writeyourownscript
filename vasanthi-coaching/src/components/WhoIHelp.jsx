@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
-import WaveDivider from './WaveDivider'
 
 const WA_LINK = "https://wa.me/918939645676?text=Hi%20Vasanthi%2C%20I%20want%20to%20book%20a%20free%20session"
 
@@ -62,8 +61,8 @@ export default function WhoIHelp() {
   const [ref, inView] = useInView()
 
   return (
-    <section className="relative bg-white pt-16 pb-0 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 pb-20">
+    <section className="relative bg-white py-16 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-6">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -137,8 +136,6 @@ export default function WhoIHelp() {
           ))}
         </div>
       </div>
-
-      <WaveDivider fill="#f9fafb" />
     </section>
   )
 }

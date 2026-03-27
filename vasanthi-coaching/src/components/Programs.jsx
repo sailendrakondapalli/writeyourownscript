@@ -2,15 +2,14 @@ import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 import { useInView } from '../hooks/useInView'
 import { programs } from '../data/programs'
-import WaveDivider from './WaveDivider'
 
 export default function Programs() {
   const [ref, inView] = useInView()
   const navigate = useNavigate()
 
   return (
-    <section id="programs" className="relative bg-gray-50 pt-24 pb-0 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 pb-20">
+    <section id="programs" className="relative bg-gray-50 py-24 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-6">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -72,7 +71,6 @@ export default function Programs() {
           ))}
         </div>
       </div>
-      <WaveDivider fill="#ffffff" />
     </section>
   )
 }

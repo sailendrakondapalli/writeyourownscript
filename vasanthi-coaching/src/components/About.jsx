@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
-import WaveDivider from './WaveDivider'
 
 const ABOUT_IMG = "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=700&q=80"
 
@@ -8,8 +7,8 @@ export default function About() {
   const [ref, inView] = useInView()
 
   return (
-    <section id="about" className="relative bg-white pt-24 pb-0 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6 pb-20">
+    <section id="about" className="relative bg-white py-24 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Image */}
           <motion.div
@@ -82,7 +81,6 @@ export default function About() {
           </motion.div>
         </div>
       </div>
-      <WaveDivider fill="#ffffff" />
     </section>
   )
 }

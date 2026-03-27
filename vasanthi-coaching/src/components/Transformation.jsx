@@ -99,7 +99,6 @@ export default function Transformation() {
       </div>
 
       {/* Wave out — white below */}
-      <WaveDivider fill="#ffffff" />
     </section>
   )
 }

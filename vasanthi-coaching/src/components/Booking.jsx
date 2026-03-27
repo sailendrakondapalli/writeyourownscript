@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
-import WaveDivider from './WaveDivider'
 
 const WA_LINK = "https://wa.me/918939645676?text=Hi%20Vasanthi%2C%20I%20want%20to%20book%20a%20free%20session"
 const BG = "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1400&q=80"
@@ -9,24 +8,11 @@ export default function Booking() {
   const [ref, inView] = useInView()
 
   return (
-    <section id="book" className="relative pt-0 pb-0 overflow-hidden">
-      {/* Wave entry from white above */}
-      <div style={{ lineHeight: 0, marginTop: '-2px' }}>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"
-          style={{ display: 'block', width: '100%', height: '70px', position: 'relative', zIndex: 2 }}>
-          <path fill="#ffffff" fillOpacity="1"
-            d="M0,35 C240,70 480,0 720,35 C960,70 1200,0 1440,35 L1440,70 L0,70 Z"
-            transform="scale(1,-1) translate(0,-70)" />
-        </svg>
-      </div>
+    <section id="book" className="relative py-24 overflow-hidden">
       {/* Background */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${BG})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${BG})` }} />
       <div className="absolute inset-0 bg-gradient-to-br from-pink-900/60 via-purple-900/55 to-pink-900/60" />
-
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-20 pb-20">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -84,7 +70,6 @@ export default function Booking() {
           </p>
         </motion.div>
       </div>
-      <WaveDivider fill="#ffffff" />
     </section>
   )
 }

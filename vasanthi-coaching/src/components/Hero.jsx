@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import WaveDivider from './WaveDivider'
 
 const WA_LINK = "https://wa.me/918939645676?text=Hi%20Vasanthi%2C%20I%20want%20to%20book%20a%20free%20session"
 
@@ -118,10 +117,6 @@ export default function Hero() {
         <span className="text-xs tracking-widest uppercase">Scroll</span>
         <div className="w-px h-8 bg-white/40" />
       </motion.div>
-
-      <div className="absolute bottom-0 left-0 right-0">
-        <WaveDivider fill="#ffffff" />
-      </div>
     </section>
   )
 }
