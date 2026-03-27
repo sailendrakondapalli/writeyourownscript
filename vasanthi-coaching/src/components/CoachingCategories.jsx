@@ -132,7 +132,7 @@ export default function CoachingCategories() {
           )}
         </AnimatePresence>
       </div>
-      <WaveDivider fill="#1a0a2e" />
+      <WaveDivider fill="#ffffff" />
     </section>
   )
 }

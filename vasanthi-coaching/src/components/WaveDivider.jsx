@@ -1,20 +1,24 @@
-// Wave divider — place at bottom of a section
-// fill = color of the NEXT section's background
-export default function WaveDivider({ fill = '#ffffff', flip = false, className = '' }) {
+// Clean wave divider — fill must exactly match the NEXT section's bg color
+export default function WaveDivider({ fill = '#ffffff', flip = false }) {
   return (
     <div
-      className={`w-full overflow-hidden leading-none ${flip ? 'rotate-180' : ''} ${className}`}
-      style={{ marginBottom: '-2px' }}
+      className="w-full leading-none block"
+      style={{
+        marginBottom: '-2px',
+        transform: flip ? 'scaleY(-1)' : 'none',
+        lineHeight: 0,
+      }}
     >
       <svg
-        viewBox="0 0 1440 80"
         xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 70"
         preserveAspectRatio="none"
-        className="w-full h-16 md:h-20"
+        style={{ display: 'block', width: '100%', height: '70px' }}
       >
         <path
-          d="M0,40 C180,80 360,0 540,40 C720,80 900,0 1080,40 C1260,80 1380,20 1440,40 L1440,80 L0,80 Z"
           fill={fill}
+          fillOpacity="1"
+          d="M0,35 C240,70 480,0 720,35 C960,70 1200,0 1440,35 L1440,70 L0,70 Z"
         />
       </svg>
     </div>

@@ -9,7 +9,16 @@ export default function Booking() {
   const [ref, inView] = useInView()
 
   return (
-    <section id="book" className="relative pt-24 pb-0 overflow-hidden">
+    <section id="book" className="relative pt-0 pb-0 overflow-hidden">
+      {/* Wave entry from white above */}
+      <div style={{ lineHeight: 0, marginTop: '-2px' }}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 70" preserveAspectRatio="none"
+          style={{ display: 'block', width: '100%', height: '70px', position: 'relative', zIndex: 2 }}>
+          <path fill="#ffffff" fillOpacity="1"
+            d="M0,35 C240,70 480,0 720,35 C960,70 1200,0 1440,35 L1440,70 L0,70 Z"
+            transform="scale(1,-1) translate(0,-70)" />
+        </svg>
+      </div>
       {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -17,7 +26,7 @@ export default function Booking() {
       />
       <div className="absolute inset-0 bg-gradient-to-br from-pink-900/60 via-purple-900/55 to-pink-900/60" />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center pb-20">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center py-20 pb-20">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
