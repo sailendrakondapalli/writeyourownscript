@@ -46,7 +46,7 @@ export default function Navbar() {
           <img
             src={logoPng}
             alt="Write Your Own Script"
-            className="h-10 w-auto"
+            className="h-10 w-10 rounded-full object-cover border-2 border-pink-400/40"
           />
         </a>
 
@@ -65,6 +65,17 @@ export default function Navbar() {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href="/phoenix-women"
+              onClick={e => { e.preventDefault(); navigate('/phoenix-women') }}
+              className={`font-medium transition-colors text-sm tracking-wide ${
+                scrolled ? 'text-pink-600 hover:text-pink-700' : 'text-pink-300 hover:text-pink-200'
+              }`}
+            >
+              🔥 Phoenix
+            </a>
+          </li>
         </ul>
 
         <a href={WA_LINK} target="_blank" rel="noreferrer"
@@ -97,6 +108,13 @@ export default function Navbar() {
               {l}
             </a>
           ))}
+          <a
+            href="/phoenix-women"
+            onClick={e => { e.preventDefault(); setMenuOpen(false); navigate('/phoenix-women') }}
+            className="text-pink-600 font-medium py-1"
+          >
+            🔥 Phoenix Women
+          </a>
           <a href={WA_LINK} target="_blank" rel="noreferrer" className="btn-primary text-center mt-2">
             Book Free Session
           </a>

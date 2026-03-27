@@ -24,7 +24,7 @@ export default function Hero() {
           transition={{ duration: 0.7 }}
           className="mb-8"
         >
-          <img src={logoPng} alt="Write Your Own Script" className="h-28 md:h-36 mx-auto drop-shadow-2xl" />
+          <img src={logoPng} alt="Write Your Own Script" className="h-36 w-36 md:h-44 md:w-44 mx-auto rounded-full object-cover shadow-2xl border-4 border-white/20" />
         </motion.div>
 
         <motion.h1

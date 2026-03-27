@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <img src={logoPng} alt="Write Your Own Script" className="h-14 w-auto mb-4" />
+            <img src={logoPng} alt="Write Your Own Script" className="h-14 w-14 rounded-full object-cover border-2 border-pink-400/30 mb-4" />
             <p className="text-gray-500 text-sm leading-relaxed mb-6">
               Helping you rewrite your story — with clarity, confidence, and purpose.
             </p>
