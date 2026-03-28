@@ -78,10 +78,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <a href={WA_LINK} target="_blank" rel="noreferrer"
-          className="hidden md:inline-block btn-primary text-sm py-3 px-6">
-          Book Appointment
-        </a>
+
 
         {/* Mobile hamburger */}
         <button
@@ -114,9 +111,6 @@ export default function Navbar() {
             className="text-pink-600 font-medium py-1"
           >
             🔥 Phoenix Women
-          </a>
-          <a href={WA_LINK} target="_blank" rel="noreferrer" className="btn-primary text-center mt-2">
-            Book Appointment
           </a>
         </div>
       )}
