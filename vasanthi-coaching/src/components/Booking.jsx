@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
 
-const WA_LINK = "https://wa.me/918939645676?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
+const WA_LINK = "https://wa.me/918148115360?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
 const BG = "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1400&q=80"
 
 export default function Booking() {

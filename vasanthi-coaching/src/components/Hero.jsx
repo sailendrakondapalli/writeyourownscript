@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import logoPng from '../assets/logo.png'
 import lotusBg from '../assets/lotus.png'
 
-const WA_LINK = "https://wa.me/918939645676?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
+const WA_LINK = "https://wa.me/918148115360?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
 
 // Pink lotus — transformation, purity, new beginnings
 const LOTUS_BG = "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80"

@@ -1,6 +1,6 @@
 import logoPng from '../assets/logo.png'
 
-const WA_LINK = "https://wa.me/918939645676?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
+const WA_LINK = "https://wa.me/918148115360?text=Hi%2C%20I%20want%20to%20book%20an%20appointment"
 
 export default function Footer() {
   const links = ['About', 'Programs', 'Coaching', 'Book']

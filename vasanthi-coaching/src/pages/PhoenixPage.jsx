@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import FloatingWhatsApp from '../components/FloatingWhatsApp'
 import logoPng from '../assets/logo.png'
 
-const WA_LINK = "https://wa.me/918939645676?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Phoenix%20Women"
+const WA_LINK = "https://wa.me/918148115360?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Phoenix%20Women"
 
 export default function PhoenixPage() {
   const navigate = useNavigate()

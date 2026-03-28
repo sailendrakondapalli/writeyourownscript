@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from '../hooks/useInView'
 
-const WA_BASE = "https://wa.me/918939645676?text="
+const WA_BASE = "https://wa.me/918148115360?text="
 
 export default function ContactForm() {
   const [ref, inView] = useInView()

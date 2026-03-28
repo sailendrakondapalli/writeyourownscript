@@ -59,6 +59,13 @@ const categories = [
     why: 'Positivity is not toxic — it\'s a powerful lens that shifts your energy, attracts better outcomes, and fuels resilience.',
     who: 'Anyone stuck in negative thought loops, chronic pessimism, or struggling to find joy in everyday life.',
   },
+  {
+    icon: '⚖️',
+    title: 'Work Life Balance Coaching',
+    what: 'Learn to set boundaries, manage energy, and create harmony between your professional and personal life.',
+    why: 'Burnout is not a badge of honour. A balanced life is a productive, joyful, and sustainable one.',
+    who: 'Professionals, working women, and students who feel overwhelmed, exhausted, or like they\'re always running on empty.',
+  },
 ]
 
 export default function CoachingCategories() {
