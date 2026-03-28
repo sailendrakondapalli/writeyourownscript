@@ -67,13 +67,6 @@ export default function Booking() {
           <p className="text-pink-300/60 text-sm mt-6">
             No spam. No pressure. Just a genuine conversation about your transformation.
           </p>
-
-          {/* Special note */}
-          <div className="mt-8 bg-white/10 backdrop-blur rounded-2xl p-5 border border-white/20 max-w-xl mx-auto">
-            <p className="text-white/90 text-sm leading-relaxed">
-              🎓 <strong>Special Initiative:</strong> Free session available for rural school students appearing for Class 10. Reach out on WhatsApp to know more.
-            </p>
-          </div>
         </motion.div>
       </div>
     </section>

@@ -37,11 +37,11 @@ export default function About() {
           >
             <span className="section-tag">About Me</span>
             <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Hi, I'm Vasanthi —{' '}
-              <span className="gradient-text">Your Life Coach</span>
+              Your{' '}
+              <span className="gradient-text">Life Coach</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              I'm a passionate life coach dedicated to helping women and students break free from
+              A certified life coach dedicated to helping women and students break free from
               self-limiting beliefs and step into their fullest potential. With a heart-centered,
               results-driven approach, I guide you from where you are to where you truly want to be.
             </p>

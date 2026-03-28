@@ -45,10 +45,6 @@ export default function FinalCTA() {
             Start Your Journey Today
           </a>
 
-          <p className="text-gray-400 text-sm mt-6">
-            First session is completely free. No credit card required.
-          </p>
-
           {/* Decorative bottom */}
           <div className="flex justify-center mt-12">
             <div className="w-20 h-1 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full" />

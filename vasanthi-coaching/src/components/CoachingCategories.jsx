@@ -52,6 +52,13 @@ const categories = [
     why: 'You cannot pour from an empty cup. Self-love is the root of every healthy relationship and achievement.',
     who: 'Those who put everyone else first, struggle with self-criticism, or have never truly prioritized themselves.',
   },
+  {
+    icon: '🌟',
+    title: 'Positivity Coaching',
+    what: 'Cultivate an optimistic mindset and train yourself to see opportunities even in challenges.',
+    why: 'Positivity is not toxic — it\'s a powerful lens that shifts your energy, attracts better outcomes, and fuels resilience.',
+    who: 'Anyone stuck in negative thought loops, chronic pessimism, or struggling to find joy in everyday life.',
+  },
 ]
 
 export default function CoachingCategories() {
