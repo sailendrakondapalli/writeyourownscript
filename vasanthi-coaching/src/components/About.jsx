@@ -41,7 +41,7 @@ export default function About() {
               <span className="gradient-text">Life Coach</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              A certified life coach dedicated to helping women break free from
+              A certified life coach dedicated to Help women break free from
               self-limiting beliefs and step into their fullest potential. With a heart-centered,
               results-driven approach, I guide you from where you are to where you truly want to be.
             </p>
