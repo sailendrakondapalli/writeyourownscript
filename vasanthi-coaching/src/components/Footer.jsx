@@ -6,7 +6,7 @@ export default function Footer() {
   const quickLinks = [
     { label: 'About', id: 'about' },
     { label: 'Coaching Programs', id: 'programs' },
-    { label: 'Book', id: 'book' },
+    { label: 'Book an Appointment', id: 'book' },
     { label: 'Testimonials', id: 'testimonials' },
   ]
 
@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-gray-600 text-sm">© 2025 Write Your Own Script. All rights reserved.</p>
+          <p className="text-gray-600 text-sm">© 2026 Write Your Own Script. All rights reserved.</p>
           <p className="text-gray-600 text-sm italic font-playfair">"Rewrite your life.. Live your dream"</p>
         </div>
       </div>
