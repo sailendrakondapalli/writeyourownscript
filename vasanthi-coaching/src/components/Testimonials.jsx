@@ -35,11 +35,11 @@ const testimonials = [
     stars: 5,
   },
   {
-    name: 'Professor Jayasri',
+    name: 'Jayasri',
     role: 'Professor',
     initials: 'PJ',
     color: 'from-teal-400 to-emerald-500',
-    text: 'You are an angel with a light of hope. In the darkest moments of uncertainty, you arrived like a beacon — illuminating the path forward with warmth, wisdom, and unwavering belief. Your coaching doesn\'t just guide; it transforms. You carry the rare gift of seeing potential in people before they can see it in themselves, and you nurture it with such grace and compassion. Thank you for being that light.',
+    text: 'You are truly an angel with a light of hope. In our darkest moments of uncertainty, you provide exactly the hope and confidence we need to find our way.',
     stars: 5,
   },
 ]

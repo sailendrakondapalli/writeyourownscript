@@ -76,7 +76,7 @@ export default function Navbar() {
                 scrolled ? 'text-pink-600 hover:text-pink-700' : 'text-pink-300 hover:text-pink-200'
               }`}
             >
-              🔥 Phoenix
+              Phoenix Women
             </a>
           </li>
           <li>
@@ -87,7 +87,7 @@ export default function Navbar() {
                 scrolled ? 'text-violet-600 hover:text-violet-700' : 'text-violet-300 hover:text-violet-200'
               }`}
             >
-              🌟 Visionaries
+              Future Visionaries
             </a>
           </li>
           <li>
@@ -98,7 +98,7 @@ export default function Navbar() {
                 scrolled ? 'text-gray-600 hover:text-pink-600' : 'text-white/90 hover:text-pink-300'
               }`}
             >
-              Book
+              Book an Appointment
             </a>
           </li>
           <li>
@@ -146,21 +146,21 @@ export default function Navbar() {
             onClick={e => { e.preventDefault(); setMenuOpen(false); navigate('/phoenix-women') }}
             className="text-pink-600 font-medium py-1"
           >
-            🔥 Phoenix
+            Phoenix Women
           </a>
           <a
             href="/program/phoenix-leaders"
             onClick={e => { e.preventDefault(); setMenuOpen(false); navigate('/program/phoenix-leaders') }}
             className="text-violet-600 font-medium py-1"
           >
-            🌟 Visionaries
+            Future Visionaries
           </a>
           <a
             href="/#book"
             onClick={e => handleNavClick(e, 'book')}
             className="text-gray-700 font-medium py-1"
           >
-            Book
+            Book an Appointment
           </a>
           <a
             href="/#testimonials"
